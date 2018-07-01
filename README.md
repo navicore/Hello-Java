@@ -1,10 +1,10 @@
 #Hello Java in Resin.io
 
-#### NOTE this is an experimental fork to replace Oracle JDK with OpenJDK due to bugs (TODO LIST) in the Oracle build. Replace `github.com/resin-io` with `github.com/navicore` in the instructions below to try it
+#### NOTE this is an experimental fork to replace Oracle JDK with OpenJDK due java.lang.VerifyError and "Error exists in the bytecode" bugs in the Oracle build. Replace `github.com/resin-io` with `github.com/navicore` in the instructions below to try it
 
 ## Introduction
 
-This project installs OpenJDK (JRE8 included) which allows you to execute Java applications on [Resin.io](http://resin.io).
+This project installs OpenJDK8 (JRE8 included) which allows you to execute Java applications on [Resin.io](http://resin.io).
 
 This is a very simple project that is an example of how to run Java code on a Raspberry Pi.
 
@@ -24,14 +24,14 @@ The recipe for this project is as follows:
 1. After about 10 minutes your new device should show up on your application dashboard.
 1. You can now clone the Hello.Java repo:
 
-`$ git clone https://github.com/resin-io/Hello-Java.git`
+`git clone https://github.com/resin-io/Hello-Java.git`
 
 Then add the resin remote:
 
-`$ git remote add resin git@git.resin.io:<myUserName>/<myApplicationName>.git`
+`git remote add resin git@git.resin.io:<myUserName>/<myApplicationName>.git`
 
 And finally push the code to your Raspberry Pi:
 
-`$ git push resin master`
+`git push resin master`
 
 Now you can enjoy Java code on [Resin.io](http://resin.io).
