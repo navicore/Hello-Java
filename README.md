@@ -1,14 +1,14 @@
 #Hello Java in Resin.io
 
+#### NOTE this is an experimental fork to replace Oracle JDK with OpenJDK due to bugs (TODO LIST) in the Oracle build. Replace `github.com/resin-io` with `github.com/navicore` in the instructions below to try it
+
 ## Introduction
 
-This project installs Oracle JDK 8 (JRE8 included) which allows you to execute Java applications on [Resin.io](http://resin.io).
+This project installs OpenJDK (JRE8 included) which allows you to execute Java applications on [Resin.io](http://resin.io).
 
 This is a very simple project that is an example of how to run Java code on a Raspberry Pi.
 
-You can build and deploy your code on the Raspberry Pi. Other JDK versions are also supported. When you install Java from these, it assumes acceptance of the [Oracle license](http://www.oracle.com/technetwork/java/javase/terms/thirdpartyreadme/java-license-366168.html)
-
-* You can use command CMD ["javac", "sourceFile"] to build the java source separately but with the current raspbian image this command is not supported.
+You can build and deploy your code on the Raspberry Pi. Other JDK versions are also supported.
 
 ## Parts
 

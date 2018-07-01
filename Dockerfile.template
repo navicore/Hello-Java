@@ -1,0 +1,6 @@
+FROM resin/%%RESIN_MACHINE_NAME%%-openjdk
+
+COPY . /usr/src/app
+
+RUN javac /usr/src/app/Hello.java
+CMD /usr/src/app/run.sh
