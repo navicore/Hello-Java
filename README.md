@@ -1,6 +1,11 @@
 #Hello Java in Resin.io
 
-#### NOTE this is an experimental fork to replace Oracle JDK with OpenJDK due java.lang.VerifyError and "Error exists in the bytecode" bugs in the Oracle build. Replace `github.com/resin-io` with `github.com/navicore` in the instructions below to try it
+#### NOTE this is an experimental fork with the follwing goals:
+
+`1. to replace Oracle JDK with OpenJDK due to `java.lang.VerifyError and "Error exists in the bytecode"` bugs that occur with the Oracle build
+`2. to use a dynamic import FROM to support multiple targets.
+
+Replace `github.com/resin-io` with `github.com/navicore` in the instructions below to try the fork.
 
 ## Introduction
 
