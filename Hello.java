@@ -1,7 +1,10 @@
 public class Hello
 {
-	public static void main(String[] args)
+	public static void main(String[] args) throws Exception
 	{
-		System.out.println("Hello from " + System.getenv("RESIN_DEVICE_NAME_AT_INIT"));
+    for (;;) {
+		  System.out.println("Hello from " + System.getenv("RESIN_DEVICE_NAME_AT_INIT"));
+      Thread.sleep(5000);
+    }
 	}
 }
